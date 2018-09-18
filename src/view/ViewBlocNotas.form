@@ -34,7 +34,7 @@
           <SubComponents>
             <MenuItem class="javax.swing.JMenuItem" name="jmi_leer">
               <Properties>
-                <Property name="text" type="java.lang.String" value="Leer"/>
+                <Property name="text" type="java.lang.String" value="Abrir"/>
               </Properties>
               <AuxValues>
                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>

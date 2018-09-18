@@ -68,7 +68,7 @@ public class ViewBlocNotas extends javax.swing.JFrame {
 
         jm_menu.setText("MENÚ");
 
-        jmi_leer.setText("Leer");
+        jmi_leer.setText("Abrir");
         jm_menu.add(jmi_leer);
 
         jmi_guardar.setText("Guardar");
