@@ -27,5 +27,39 @@ public class ModelBlocNotas {
     public void setPath(String path) {
         this.path = path;
     }
+    /**
+     * Metodo que cifra una cadena de caracteres de tipo cifrado Cesar
+     * @param cadena
+     * @return El texto o cadena que el usuario desea cifrar
+     */
+    public String Cifrado(String cadena){
+        char caracter ;
+        String convers = "";
+        for (int i = 0; i< cadena.length(); i++){
+            caracter = cadena.charAt(i);
+            int ascii = (int)caracter;
+            ascii = ascii + 1;
+            caracter = (char)ascii;
+            convers += Character.toString(caracter);
+        }
+        return convers;
+    }
     
+    /**
+     * Metodo que descifra una cadena de caracteres de tipo cifrado Cesar
+     * @param cadena
+     * @return El texto que el usuario ingresa o desea descifrar
+     */
+    public String Descifrado(String cadena){
+        char caracter ;
+        String convers = "";
+        for (int i = 0; i< cadena.length(); i++){
+            caracter = cadena.charAt(i);
+            int ascii = (int)caracter;
+            ascii = ascii - 1;
+            caracter = (char)ascii;
+            convers += Character.toString(caracter);
+        }
+        return convers;
+    }
 }
