@@ -34,6 +34,8 @@ public class ViewBlocNotas extends javax.swing.JFrame {
         jm_menu = new javax.swing.JMenu();
         jmi_leer = new javax.swing.JMenuItem();
         jmi_guardar = new javax.swing.JMenuItem();
+        jmi_cifrar = new javax.swing.JMenuItem();
+        jmi_descifrar = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -73,6 +75,12 @@ public class ViewBlocNotas extends javax.swing.JFrame {
 
         jmi_guardar.setText("Guardar");
         jm_menu.add(jmi_guardar);
+
+        jmi_cifrar.setText("Cifrar");
+        jm_menu.add(jmi_cifrar);
+
+        jmi_descifrar.setText("Descifrar");
+        jm_menu.add(jmi_descifrar);
 
         jmb_menu.add(jm_menu);
 
@@ -132,6 +140,8 @@ public class ViewBlocNotas extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     public javax.swing.JMenu jm_menu;
     public javax.swing.JMenuBar jmb_menu;
+    public javax.swing.JMenuItem jmi_cifrar;
+    public javax.swing.JMenuItem jmi_descifrar;
     public javax.swing.JMenuItem jmi_guardar;
     public javax.swing.JMenuItem jmi_leer;
     public javax.swing.JTextArea jta_notas;
