@@ -35,9 +35,10 @@ public class ModelBlocNotas {
     public String Cifrado(String cadena){
         char caracter ;
         String convers = "";
+        int ascii;
         for (int i = 0; i< cadena.length(); i++){
             caracter = cadena.charAt(i);
-            int ascii = (int)caracter;
+            ascii = (int)caracter;
             ascii = ascii + 1;
             caracter = (char)ascii;
             convers += Character.toString(caracter);
@@ -53,9 +54,10 @@ public class ModelBlocNotas {
     public String Descifrado(String cadena){
         char caracter ;
         String convers = "";
+        int ascii;
         for (int i = 0; i< cadena.length(); i++){
             caracter = cadena.charAt(i);
-            int ascii = (int)caracter;
+            ascii = (int)caracter;
             ascii = ascii - 1;
             caracter = (char)ascii;
             convers += Character.toString(caracter);
